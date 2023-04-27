@@ -5,6 +5,9 @@ import react from '../assets/img/react.png'
 import node from '../assets/img/node.png'
 import express from '../assets/img/express.png'
 import scss from '../assets/img/sass.png'
+import git from '../assets/img/git.jpg'
+import bt from '../assets/img/boo.png'
+
 
 const Main = () => {
   const { AboutMeInfo } = useInfoContext()
@@ -14,11 +17,15 @@ const Main = () => {
        <br />
         <h6>DEVELOPMENT TOOLS</h6>
         <ul>
-          <li>HTML, CSS, SASS</li>
+          <li>Responsive Design (HTML, CSS, SASS)</li>
           <li>JavaScript</li>
-          <li>Node.Js</li>
           <li>React.Js</li>
-          <li>Back-End apprentice: Express, GraphQL, MongoDB...</li>
+          <li>Node.Js</li>
+          <li>Git</li>
+          <h6>Apprentice :</h6>
+          <li>Database Integration</li>
+          <li>ThreeJS (WebGi) </li>
+          <li>GSAP</li>
         </ul>
         <h6>COMMUNICATION SKILLS</h6>
         <ul>
@@ -54,7 +61,7 @@ const Main = () => {
       I'm a web developer that finds passion in the use of technologies to enable communications and interactions, problem solving on debugging abilities and the use of creativity to find quick and efficient solutions while developing a high quality UI/UX design.
       </p>
       <p>
-        I'm currently getting into 3D animation websites with ThreeJS (WebGi) and GSAP.<br></br>
+        I'm currently collaborating at open-source code and getting into 3D animation websites with ThreeJS (WebGi) and GSAP.<br></br>
         Go to my GitHub down below to see what I'm up to!
       {/* I'm crazy about languages, communications, and creativity working on understanding and expanding my own, via coding... */}
       </p>  
@@ -64,6 +71,8 @@ const Main = () => {
         <img className='imgs' src={node} alt="" />
         <img className='imgs' src={express} alt="" />
         <img className='imgs' src={scss} alt="" />
+        <img className='imgs' src={bt} alt="" />
+        <img className='imgs' src={git} alt="" />
       </div>
     </>
     
@@ -73,7 +82,7 @@ const Main = () => {
     <main className='container-fluid'>
       <div className='row'>
         <div className='col-lg-6 col-md-6 col-sm-12 border border-dark imgDisplay'>
-          <img src={js} className='img-fluid' />
+          <img src={image} className='img-fluid' />
         </div>
         <div className='col-lg-6 col-md-6 col-sm-12 border border-start-0 border-dark infoDisplay'>
            
