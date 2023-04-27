@@ -1,0 +1,119 @@
+$main-color1:rgb(34, 47, 240);
+$main-color2:rgb(255, 255, 255);
+
+
+body{
+    margin:5px;
+    background-color:$main-color2;
+}
+
+p{
+    font-size: 18px;
+}
+
+.delia{
+    font-size:20px;
+    font-weight: 500;   
+}
+
+.about ,.projects{
+    padding: 0;
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4%;
+    // height: 100px;
+}
+
+.imgs{
+    height: 100px;
+    padding: 1%;
+}
+h6{
+    display: inline;
+    font-weight: 700;
+    color: $main-color1;
+}
+
+hr {
+margin:1px;
+width:100%;
+opacity: .50;
+color: rgb(0, 0, 0);
+}
+
+.infoSlider{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.imgDisplay{
+    background-color:$main-color1;
+    padding: 2%;
+}
+
+.infoDisplay{
+    background-color: $main-color2;
+}
+
+ul{
+    list-style: none;
+}
+
+li::before{
+    content: "•";
+    color: rgb(0, 0, 0);
+}
+
+.liCarousel::before{
+    content: "•";
+    margin: 10px    ;
+    color: $main-color1;
+}
+
+.btn-footer{
+    padding: 2rem 10rem 2rem 8rem;
+    color: $main-color2;
+    background-color: rgb(12, 14, 13);
+    white-space: nowrap;
+    width: 100%;
+}
+.a-footer{
+    padding-left: 2%;
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline:none;
+    color:#3d3d3d;
+    width: 70%;
+}
+.inputTextarea{
+    padding: 2% 1% 1% 1%;
+}
+.Textarea{
+    color:#3d3d3d;
+    outline-color: #000000;
+    width: 100%;
+}
+.div-btn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+a:-webkit-any-link{
+   color:$main-color1;
+}
+.btn-send{
+   transition: box-shadow 100ms ease-in-out, color 100ms ease-in-out;
+   &:hover{
+    box-shadow: 0 0 40px 40px $main-color1 inset;
+    border-color: $main-color1;
+   }
+}
