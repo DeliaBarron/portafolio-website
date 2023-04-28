@@ -20,7 +20,6 @@ const Carousel = () => {
               <p>A React.js app that displays data as art work, with a search input so you can display only the pieces you're looking for and allows you to save your favourite pieces with a single like button. <br></br>Go to your favourites and click them to get more info about the authors and work itself.<br />
               <ul>
                 <li className='liCarousel'>React.js (Vite), SCSS, JavaScript.</li>
-                <li className='liCarousel'>Github Pages deploy.</li>
               </ul>
               </p>
               <a className='deployLink' target='blank' href='https://github.com/DeliaBarron/ArtGalleryApp-React.git'>GO TO PROJECT'S REPO</a>
